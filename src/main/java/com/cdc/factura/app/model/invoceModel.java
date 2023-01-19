@@ -17,15 +17,15 @@ public class invoceModel implements Serializable {
 	@Id
 	private int id;
 	private String numeroOtorgante;
-	private int cve_netsuite;
+	private int cveNetsuite;
 	private int  consultas;
-	private Double precio;
-	private int cve_descuento;
-	private String cve_region;
+	private Double monPrecioUnidad;
+	private int cveDescuento;
+	private String cveRegion;
+	private String observaciones;
+	private String detalleConsumo;
 
 	public invoceModel() {
 		
 	}
-
-
 }
